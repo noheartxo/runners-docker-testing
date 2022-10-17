@@ -3,7 +3,7 @@ name: Test Code within a Docker Container
 on: push
 jobs: 
   build:
-    runs-on: [self-hosted, linux, x64]
+    runs-on: ubuntu-latest
     container: 
       image: ubuntu:latest
       volumes: 
